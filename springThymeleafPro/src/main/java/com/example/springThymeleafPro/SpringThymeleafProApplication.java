@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@EnableJpaRepositories("com.baeldung.persistence.repo")
-@EntityScan("com.baeldung.persistence.model")
+@EnableJpaRepositories("springThymeleafPro.repo")
+@EntityScan("springThymeleafPro.model")
 @SpringBootApplication
 public class SpringThymeleafProApplication {
 
